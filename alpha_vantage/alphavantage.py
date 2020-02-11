@@ -33,7 +33,7 @@ class AlphaVantage(object):
             retries:  Maximum amount of retries in case of faulty connection or
                 server not able to answer the call.
             treat_info_as_error: Treat information from the api as errors
-            output_format:  Either 'json', 'pandas' os 'csv'
+            output_format:  Either 'json', 'pandas' or 'csv'
             indexing_type: Either 'date' to use the default date string given
             by the alpha vantage api call or 'integer' if you just want an
             integer indexing on your dataframe. Only valid, when the
